@@ -7,14 +7,17 @@ package gk.quiz;
  */
 public class CheckerApp implements Runnable {
 
-    private static String fileName;
+    private String fileName;
+
+    public CheckerApp(String fileName) {
+        this.fileName = fileName;
+    }
 
     /**
      * @param args in the first argument it holds the filename
      */
     public static void main(String[] args) {
-        fileName = args[0];
-        new CheckerApp().run();
+        new CheckerApp(args[0]).run();
     }
 
     /**
