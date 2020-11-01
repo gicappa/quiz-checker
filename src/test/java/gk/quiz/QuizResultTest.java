@@ -24,7 +24,6 @@ public class QuizResultTest {
         Map<String, List<Integer>> noMatch =
                 Map.of("no match one", List.of(3), "no match two", List.of(2));
 
-        result = new QuizResult();
         assertThat(result.display(noMatch), is("no matches found"));
     }
 
@@ -35,7 +34,7 @@ public class QuizResultTest {
                         "this match", List.of(1, 4),
                         "no match two", List.of(2));
 
-        assertThat(new QuizResult().display(oneMatch), is("this match[1, 4]"));
+        assertThat(result.display(oneMatch), is("this match[1, 4]"));
     }
 
     @Test
@@ -46,7 +45,7 @@ public class QuizResultTest {
                         "no match two", List.of(2),
                         "another match", List.of(5, 6));
 
-        assertThat(new QuizResult().display(oneMatch), is("another match[5, 6]\nthis match[1, 4]"));
+        assertThat(result.display(oneMatch), is("another match[5, 6]\nthis match[1, 4]"));
     }
 
 }
