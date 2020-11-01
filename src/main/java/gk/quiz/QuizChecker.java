@@ -8,14 +8,14 @@ class QuizChecker {
         StringTokenizer tokenizer = new StringTokenizer(quizText, "\n");
         for (Integer i = 1; tokenizer.hasMoreTokens(); i++) {
             String token = tokenizer.nextToken();
-            List<Integer> occurrences = lines.get(token);
+            List<Integer> occurrences = lines.get(token.toLowerCase());
 
             if (occurrences == null) {
                 occurrences = new ArrayList<>(1);
             }
 
             occurrences.add(i);
-            lines.put(token, occurrences);
+            lines.put(token.toLowerCase(), occurrences);
         }
         return lines;
     }

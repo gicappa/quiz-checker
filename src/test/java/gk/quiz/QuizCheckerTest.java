@@ -4,10 +4,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
-import java.util.Map;
+import java.util.StringTokenizer;
 
+import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.collection.IsMapContaining.hasEntry;
-import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class QuizCheckerTest {
@@ -38,8 +38,15 @@ public class QuizCheckerTest {
 
     @Test
     public void it_finds_a_duplicate_lines_on_a_file_with_sentences() {
-        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("I am", List.of(1,3)));
+        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("i am", List.of(1, 3)));
         assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("you are", List.of(2)));
         assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("he is", List.of(4)));
+    }
+
+    @Test
+    public void it_disregards_case_of_the_sentence() {
+        String quizzes = "my Duplicate\nMy dupliCate\nNot a duplicate";
+        assertThat(checker.check(quizzes), hasEntry("my duplicate", List.of(1, 2)));
+        assertThat(checker.check(quizzes), hasEntry("not a duplicate", List.of(3)));
     }
 }
