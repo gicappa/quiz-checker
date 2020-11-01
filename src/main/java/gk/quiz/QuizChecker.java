@@ -26,8 +26,7 @@ class QuizChecker {
     }
 
     private void checkQuizItem(String quizText, Integer lineNumber, Map<String, QuizItem> lines) {
-        String key = quizText.toLowerCase();
-        QuizItem quizItem = lines.get(key);
+        QuizItem quizItem = lines.get(hash(quizText));
 
         if (quizItem == null) {
             quizItem = new QuizItem(quizText);
@@ -35,7 +34,11 @@ class QuizChecker {
 
         quizItem.addLineNumber(lineNumber);
 
-        lines.put(key, quizItem);
+        lines.put(hash(quizText), quizItem);
+    }
+
+    private String hash(String quizText) {
+        return quizText.toLowerCase();
     }
 
 }
