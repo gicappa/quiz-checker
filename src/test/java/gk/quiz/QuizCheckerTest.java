@@ -35,15 +35,22 @@ public class QuizCheckerTest {
 
     @Test
     public void it_finds_a_duplicate_lines_on_a_file_with_sentences() {
-        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("i am", occ(1, 3)));
-        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("you are", occ(2)));
-        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("he is", occ(4)));
+        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("iam", occ(1, 3)));
+        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("youare", occ(2)));
+        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("heis", occ(4)));
     }
 
     @Test
     public void it_disregards_case_of_the_sentence() {
         String quizzes = "my Duplicate\nMy dupliCate\nNot a duplicate";
-        assertThat(checker.check(quizzes), hasEntry("my duplicate", occ(1, 2)));
-        assertThat(checker.check(quizzes), hasEntry("not a duplicate", occ(3)));
+        assertThat(checker.check(quizzes), hasEntry("myduplicate", occ(1, 2)));
+        assertThat(checker.check(quizzes), hasEntry("notaduplicate", occ(3)));
+    }
+
+    @Test
+    public void it_disregards_difference_in_spaces_of_a_sentence() {
+        String quizzes = "my Du pli cate\nMy d upli Ca te\nNot a duplicate";
+        assertThat(checker.check(quizzes), hasEntry("myduplicate", occ(1, 2)));
+        assertThat(checker.check(quizzes), hasEntry("notaduplicate", occ(3)));
     }
 }

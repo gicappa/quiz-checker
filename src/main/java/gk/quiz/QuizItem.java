@@ -3,7 +3,6 @@ package gk.quiz;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
-import java.util.StringTokenizer;
 
 public class QuizItem {
     private final ArrayList<Integer> lineNumbers;
@@ -36,8 +35,9 @@ public class QuizItem {
     public String hash() {
         return hash(quizText);
     }
+
     public static String hash(String text) {
-        return text.toLowerCase();
+        return text.toLowerCase().replace(" ", "");
     }
 
     @Override
