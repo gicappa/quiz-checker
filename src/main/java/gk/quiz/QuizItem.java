@@ -37,7 +37,8 @@ public class QuizItem {
     }
 
     public static String hash(String text) {
-        return text.toLowerCase().replace(" ", "");
+        return text.toLowerCase()
+                .replaceAll("[^a-z\\d]", "");
     }
 
     @Override

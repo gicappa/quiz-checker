@@ -53,4 +53,11 @@ public class QuizCheckerTest {
         assertThat(checker.check(quizzes), hasEntry("myduplicate", occ(1, 2)));
         assertThat(checker.check(quizzes), hasEntry("notaduplicate", occ(3)));
     }
+
+    @Test
+    public void it_disregards_difference_in_symbols() {
+        String quizzes = "my, Du pli cate1\nMy.. d; up';\"li Ca te1\nNot a duplicate";
+        assertThat(checker.check(quizzes), hasEntry("myduplicate1", occ(1, 2)));
+        assertThat(checker.check(quizzes), hasEntry("notaduplicate", occ(3)));
+    }
 }
