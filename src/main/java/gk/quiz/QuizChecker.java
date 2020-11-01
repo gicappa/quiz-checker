@@ -2,8 +2,6 @@ package gk.quiz;
 
 import java.util.*;
 
-import static gk.quiz.Occurrences.occ;
-
 /**
  * Implements the checker algorithm
  */
@@ -21,19 +19,23 @@ class QuizChecker {
         for (Integer i = 1; tokenizer.hasMoreTokens(); i++) {
             String token = tokenizer.nextToken();
 
-            String key = token.toLowerCase();
-            Occurrences occurrences = lines.get(key);
-
-            if (occurrences == null) {
-                occurrences = new Occurrences();
-            }
-
-            occurrences.add(i);
-
-            lines.put(key, occurrences);
+            checkOccurrence(token, i, lines);
         }
 
         return lines;
+    }
+
+    private void checkOccurrence(String token, Integer lineNumber, Map<String, Occurrences> lines) {
+        String key = token.toLowerCase();
+        Occurrences occurrences = lines.get(key);
+
+        if (occurrences == null) {
+            occurrences = new Occurrences();
+        }
+
+        occurrences.add(lineNumber);
+
+        lines.put(key, occurrences);
     }
 
 }
