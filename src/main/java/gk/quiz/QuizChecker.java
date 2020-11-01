@@ -1,6 +1,10 @@
 package gk.quiz;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
+
+import static gk.quiz.QuizItem.hash;
 
 /**
  * Implements the checker algorithm
@@ -17,28 +21,21 @@ class QuizChecker {
         StringTokenizer tokenizer = new StringTokenizer(quizText, "\n");
 
         for (Integer i = 1; tokenizer.hasMoreTokens(); i++) {
-            String token = tokenizer.nextToken();
+            String quizItemText = tokenizer.nextToken();
 
-            checkQuizItem(token, i, lines);
+            QuizItem quizItem = lines.get(hash(quizItemText));
+
+            if (quizItem == null) {
+                quizItem = new QuizItem(quizItemText);
+            }
+
+            quizItem.addLineNumber(i);
+
+            lines.put(quizItem.hash(), quizItem);
         }
 
         return lines;
     }
 
-    private void checkQuizItem(String quizText, Integer lineNumber, Map<String, QuizItem> lines) {
-        QuizItem quizItem = lines.get(hash(quizText));
-
-        if (quizItem == null) {
-            quizItem = new QuizItem(quizText);
-        }
-
-        quizItem.addLineNumber(lineNumber);
-
-        lines.put(hash(quizText), quizItem);
-    }
-
-    private String hash(String quizText) {
-        return quizText.toLowerCase();
-    }
 
 }
