@@ -17,17 +17,22 @@ public class CheckerApp implements Runnable {
         new CheckerApp().run();
     }
 
+    /**
+     * Launches the application to:
+     * - load data
+     * - run the checker
+     * - display the result
+     */
     public void run() {
         try {
             FileQuiz fileQuiz = new FileQuiz();
             QuizResult quizResult = new QuizResult();
             QuizChecker quizChecker = new QuizChecker();
 
-            quizResult.display(quizChecker.check(fileQuiz.readFile(fileName)));
+            quizResult.display(quizChecker.check(fileQuiz.loadData(fileName)));
 
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
 }
