@@ -6,7 +6,7 @@ import java.util.Map;
 import static java.util.stream.Collectors.joining;
 
 class QuizResult {
-    String result(Map<String, List<Integer>> resultingHash) {
+    String display(Map<String, List<Integer>> resultingHash) {
         String result = resultingHash.entrySet().stream()
                 .filter(e -> e.getValue().size() > 1)
                 .map(m -> m.getKey() + m.getValue())

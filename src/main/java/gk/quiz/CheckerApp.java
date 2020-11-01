@@ -15,7 +15,7 @@ public class CheckerApp {
      */
     public static void main(String[] args) throws IOException {
         String inputFile = new FileQuiz().readFile(args[0]);
-        System.out.println(new QuizResult().result(new QuizChecker().check(inputFile)));
+        System.out.println(new QuizResult().display(new QuizChecker().check(inputFile)));
     }
 
 }

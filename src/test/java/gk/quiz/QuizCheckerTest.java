@@ -10,7 +10,7 @@ import static org.hamcrest.collection.IsMapContaining.hasEntry;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class CheckerAppTest {
+public class QuizCheckerTest {
 
     private static final String QUIZ_TEXT_NO_DUP = "abc\ncdf\njoy";
     private static final String QUIZ_TEXT_ONE_DUP = "abc\ncdf\njoy\ncdf";
@@ -42,34 +42,4 @@ public class CheckerAppTest {
         assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("you are", List.of(2)));
         assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("he is", List.of(4)));
     }
-
-    @Test
-    public void it_summarize_a_no_result() {
-        Map<String, List<Integer>> noMatch =
-                Map.of("no match one", List.of(3), "no match two", List.of(2));
-
-        assertThat(new QuizResult().result(noMatch), is("no matches found"));
-    }
-
-    @Test
-    public void it_summarize_one_result() {
-        Map<String, List<Integer>> oneMatch =
-                Map.of("no match one", List.of(3),
-                        "this match", List.of(1, 4),
-                        "no match two", List.of(2));
-
-        assertThat(new QuizResult().result(oneMatch), is("this match[1, 4]"));
-    }
-
-    @Test
-    public void it_summarize_two_result() {
-        Map<String, List<Integer>> oneMatch =
-                Map.of("no match one", List.of(3),
-                        "this match", List.of(1, 4),
-                        "no match two", List.of(2),
-                        "another match", List.of(5, 6));
-
-        assertThat(new QuizResult().result(oneMatch), is("another match[5, 6]\nthis match[1, 4]"));
-    }
-
 }
