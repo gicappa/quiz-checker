@@ -1,29 +1,21 @@
 package gk.quiz;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
-import static java.util.stream.Collectors.joining;
 
 /**
- * Hello world!
+ * This is the entry point of the application that takes the
+ * quiz file name as an argument and display the result
+ * in standard output
  */
 public class CheckerApp {
+
+    /**
+     * @param args in the first argument it holds the filename
+     * @throws IOException in the case the file is not found or can't be opened
+     */
     public static void main(String[] args) throws IOException {
-        CheckerApp checkerApp = new CheckerApp();
         String inputFile = new FileQuiz().readFile(args[0]);
-        System.out.println(checkerApp.result(new QuizChecker().check(inputFile)));
+        System.out.println(new QuizResult().result(new QuizChecker().check(inputFile)));
     }
 
-    public String result(Map<String, List<Integer>> resultingHash) {
-        String result = resultingHash.entrySet().stream()
-                .filter(e -> e.getValue().size() > 1)
-                .map(m -> m.getKey() + m.getValue())
-                .sorted()
-                .collect(joining("\n"));
-
-        return result.isBlank() ? "no matches found" : result;
-
-    }
 }
