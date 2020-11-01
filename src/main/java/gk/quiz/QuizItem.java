@@ -32,7 +32,7 @@ public class QuizItem {
 
     @Override
     public String toString() {
-        return lineNumbers.toString();
+        return quizText + lineNumbers.toString();
     }
 
     @Override

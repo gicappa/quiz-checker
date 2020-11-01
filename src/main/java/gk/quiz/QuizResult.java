@@ -6,9 +6,9 @@ import static java.util.stream.Collectors.joining;
 
 class QuizResult {
     String format(Map<String, QuizItem> resultingHash) {
-        String result = resultingHash.entrySet().stream()
-                .filter(e -> e.getValue().hasDuplicates())
-                .map(m -> m.getKey() + m.getValue())
+        String result = resultingHash.values().stream()
+                .filter(QuizItem::hasDuplicates)
+                .map(QuizItem::toString)
                 .sorted()
                 .collect(joining("\n"));
 
