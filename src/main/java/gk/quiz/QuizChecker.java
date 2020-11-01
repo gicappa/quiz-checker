@@ -2,21 +2,37 @@ package gk.quiz;
 
 import java.util.*;
 
+import static gk.quiz.Occurrences.occ;
+
+/**
+ * Implements the checker algorithm
+ */
 class QuizChecker {
-    Map<String, List<Integer>> check(String quizText) {
-        HashMap<String, List<Integer>> lines = new HashMap<>();
+
+    /**
+     * @param quizText the whole input file
+     * @return a map containing the lines and the occurrences
+     */
+    Map<String, Occurrences> check(String quizText) {
+        Map<String, Occurrences> lines = new HashMap<>();
+
         StringTokenizer tokenizer = new StringTokenizer(quizText, "\n");
+
         for (Integer i = 1; tokenizer.hasMoreTokens(); i++) {
             String token = tokenizer.nextToken();
-            List<Integer> occurrences = lines.get(token.toLowerCase());
+
+            String key = token.toLowerCase();
+            Occurrences occurrences = lines.get(key);
 
             if (occurrences == null) {
-                occurrences = new ArrayList<>(1);
+                occurrences = new Occurrences();
             }
 
             occurrences.add(i);
-            lines.put(token.toLowerCase(), occurrences);
+
+            lines.put(key, occurrences);
         }
+
         return lines;
     }
 

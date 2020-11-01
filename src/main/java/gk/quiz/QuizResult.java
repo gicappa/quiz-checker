@@ -1,14 +1,13 @@
 package gk.quiz;
 
-import java.util.List;
 import java.util.Map;
 
 import static java.util.stream.Collectors.joining;
 
 class QuizResult {
-    String format(Map<String, List<Integer>> resultingHash) {
+    String format(Map<String, Occurrences> resultingHash) {
         String result = resultingHash.entrySet().stream()
-                .filter(e -> e.getValue().size() > 1)
+                .filter(e -> e.getValue().hasDuplicates())
                 .map(m -> m.getKey() + m.getValue())
                 .sorted()
                 .collect(joining("\n"));
@@ -16,7 +15,7 @@ class QuizResult {
         return result.isBlank() ? "no matches found" : result;
     }
 
-    void display(Map<String, List<Integer>> resultingHash) {
+    void display(Map<String, Occurrences> resultingHash) {
         System.out.println(format(resultingHash));
     }
 
