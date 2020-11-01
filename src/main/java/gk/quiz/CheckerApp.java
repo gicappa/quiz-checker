@@ -8,7 +8,7 @@ package gk.quiz;
 public class CheckerApp implements Runnable {
 
     private final String fileName;
-    private final FileQuiz fileQuiz;
+    private final QuizFile fileQuiz;
     private final QuizResult quizResult;
     private final QuizChecker quizChecker;
 
@@ -21,7 +21,7 @@ public class CheckerApp implements Runnable {
 
     public CheckerApp(String fileName) {
         this.fileName = fileName;
-        this.fileQuiz = new FileQuiz();
+        this.fileQuiz = new QuizFile();
         this.quizResult = new QuizResult();
         this.quizChecker = new QuizChecker();
     }

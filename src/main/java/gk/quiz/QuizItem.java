@@ -13,17 +13,6 @@ public class QuizItem {
         this.quizText = quizText;
     }
 
-    public static QuizItem occ(Integer... lineNumbers) {
-        QuizItem occurrences = new QuizItem();
-        Arrays.stream(lineNumbers).forEach(occurrences::addLineNumber);
-        return occurrences;
-    }
-
-    public QuizItem() {
-        quizText = "";
-        lineNumbers = new ArrayList<>();
-    }
-
     public void addLineNumber(Integer lineNumber) {
         lineNumbers.add(lineNumber);
     }
@@ -57,5 +46,11 @@ public class QuizItem {
     @Override
     public int hashCode() {
         return Objects.hash(lineNumbers);
+    }
+
+    public static QuizItem quiz(String text,Integer... lineNumbers) {
+        QuizItem item = new QuizItem(text);
+        Arrays.stream(lineNumbers).forEach(item::addLineNumber);
+        return item;
     }
 }

@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 /**
  * Abstraction to wrap the file containing the quiz
  */
-class FileQuiz {
+class QuizFile {
     String loadData(String arg) throws IOException {
         return Files.readString(Paths.get(arg));
     }
