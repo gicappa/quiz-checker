@@ -1,0 +1,377 @@
+Quale tra i seguenti NON è un obiettivo della costruzione di un modello analitico del sistema (analysis model)? 
+Nell’ingegneria del software, che cosa è il modello chiamato “analysis model”?
+Quali dei seguenti NON sono elementi di un modello di analisi object-oriented?
+Quali elementi dell’analysis model possono essere rappresentati utilizzando i diagrammi di attività UML?
+Le relazioni mostrate in un modello dei dati devono essere classificate al fine di evidenziare la loro.…
+Le relazioni mostrate in un modello dei dati devono essere classificate al fine di evidenziare la loro.…
+Una descrizione generalizzata di oggetti simili è.…
+I diagrammi di controllo dei flussi (Control flow diagrams) sono…. 
+Quale delle seguenti affermazioni riferite ai diagrammi di controllo dei flussi (Control flow diagrams) è corretta? 
+Nell’ingegneria del software, talvolta, si utilizzano le schede CRC, cosa significa tale acronimo?
+Quale dei seguenti item NON compare su una CRC card? 
+Si verifica un “evento” quando….
+Nell’ambito della modellizzazione del comportamento (behaviour modelling) di un sistema, uno “stato” è.…
+Nell’ingegneria del software, il diagramma degli stati (state diagram).….
+Nell’ingegneria del software, cosa è un diagramma di relazione tra le entità (entity-relationship diagram)?
+Nell’ingegneria del software, il diagramma di relazione tra le entità (entity-relationship diagram)….
+Il “Data Dictionary” contiene, oltre alla descrizione delle strutture dati (data object), anche la descrizione….
+Nell’ingegneria del software, che cosa è un Dizionario dei dati (Data dictionary)?
+Nell’ingegneria del software, cosa è il diagramma di flusso dei dati (Data flow diagram)?
+Nell’ingegneria del software, che cosa indica l’acronimo inglese ERD?
+Nell’ingegneria del software, che cosa indica l’acronimo inglese DFD?
+Nell’ingegneria del software, che cosa indica l’acronimo inglese SD?
+Nell’ingegneria del software, l’“attore” è….
+Nel diagramma di flusso dei dati (data flow diagram), che cosa rappresenta questo simbolo?
+Nel diagramma di flusso dei dati (data flow diagram), che cosa rappresenta questo simbolo?
+Nel diagramma di flusso dei dati (data flow diagram), che cosa rappresenta questo simbolo?
+Nel diagramma di flusso dei dati (data flow diagram), che cosa rappresenta questo simbolo?
+“Agile software development” si riferisce a modelli di sviluppo che sono definiti “agili” perché…. 
+Quale tra le seguenti NON è un’azione richiesta per applicare l’agilità (agility) al processo di sviluppo del Software?
+Nel Febbraio 2001 fu pubblicato un documento definito “Agile Manifesto” che è alla base dell’“Agile Software Development”: quale delle seguenti affermazioni NON è riferibile ai valori del Manifesto?
+Nel Febbraio 2001 fu pubblicato un documento definito “Agile Manifesto” che è alla base dell’“Agile Software Development”: quale delle seguenti affermazioni NON è riferibile ai valori del Manifesto?
+Nel Febbraio 2001 fu pubblicato un documento definito “Agile Manifesto” che è alla base dell’“Agile Software Development”: quale delle seguenti affermazioni NON è riferibile ai valori del Manifesto?
+Nel Febbraio 2001 fu pubblicato un documento definito “Agile Manifesto” che è alla base dell’“Agile Software Development”: quale delle seguenti affermazioni NON è riferibile ai valori del Manifesto?
+Nel Febbraio 2001 fu pubblicato un documento definito “Agile Manifesto” che è alla base dell’“Agile Software Development”: quale delle seguenti affermazioni è riferibile ai valori del Manifesto?
+Nel Febbraio 2001 fu pubblicato un documento definito “Agile Manifesto” che è alla base dell’“Agile Software Development”: quale delle seguenti affermazioni è riferibile ai valori del Manifesto?
+Nel Febbraio 2001 fu pubblicato un documento definito “Agile Manifesto” che è alla base dell’“Agile Software Development”: quale delle seguenti affermazioni è riferibile ai valori del Manifesto?
+Nel Febbraio 2001 fu pubblicato un documento definito “Agile Manifesto” che è alla base dell’“Agile Software Development”: quale delle seguenti affermazioni è riferibile ai valori del Manifesto?
+Quale delle seguenti è una prescrizione dell’“Agile Software Development” su come devono essere creati processi “agili” per gestire l’imprevedibile?
+Quale delle seguenti è una prescrizione dell’“Agile Software Development” su come devono essere creati processi “agili” per gestire l’imprevedibile?
+Quale tra le seguenti NON è una delle caratteristiche fondamentali che l’“Agile Software Development” prescrive per gli sviluppatori software?
+Il modello di sviluppo del software noto come “Agile Modeling” (AM) fornisce una guida allo sviluppatore per una delle seguenti fasi, quale?
+Il modello di sviluppo del software noto come “Agile Modeling” (AM) fornisce una guida allo sviluppatore per una delle seguenti fasi, quale?
+Quale ruolo giocano le “storie dell’utente” (users’ stories) nella pianificazione secondo il modello di sviluppo del software chiamato “Agile Software Development”?
+Quale ruolo giocano le “storie dell’utente” (users’ stories) nella pianificazione secondo il modello di sviluppo del software chiamato “Agile Software Development”?
+Scrum è un metodo incrementale iterativo per gestire attività complesse, normalmente utilizzato con l’“Agile Software Development”; quale tra le seguenti NON è una delle domande che vengono poste a ciascun membro del team all’incontro “Scrum” quotidiano (daily Scrum meeting)?
+Scrum è un metodo incrementale iterativo per gestire attività complesse, normalmente utilizzato con l’“Agile Software Development”; quale tra le seguenti è una delle domande che vengono poste a ciascun membro del team all’incontro “Scrum” quotidiano (daily Scrum meeting)?
+Scrum è un metodo incrementale iterativo per gestire attività complesse, normalmente utilizzato con l’agile software development; quale tra le seguenti è una delle domande che vengono poste a ciascun membro del team all’incontro “Scrum” quotidiano (daily Scrum meeting)?
+Scrum è un metodo incrementale iterativo per gestire attività complesse, normalmente utilizzato con l’agile software development; quale tra le seguenti è una delle domande che vengono poste a ciascun membro del team all’incontro “Scrum” quotidiano (daily Scrum meeting)?
+Scrum è un metodo incrementale iterativo per gestire attività complesse, normalmente utilizzato con l’agile software development, che prevede un  incontro “Scrum” quotidiano (daily Scrum meeting) del gruppo di sviluppo: qual è la durata massima dell’incontro?
+Scrum è un metodo incrementale iterativo per gestire attività complesse, normalmente utilizzato con l’agile software development, che prevede due categorie di ruoli per le persone coinvolte nello sviluppo; quali sono?
+Scrum è un metodo incrementale iterativo per gestire attività complesse, normalmente utilizzato con l’agile software development, che prevede un  incontro “Scrum” quotidiano (daily Scrum meeting) del gruppo di sviluppo: quale tra le seguenti NON è una delle rigide regole dell’incontro?
+Scrum è un metodo incrementale iterativo per gestire attività complesse, normalmente utilizzato con l’agile software development, che prevede un  incontro “Scrum” quotidiano (daily Scrum meeting) del gruppo di sviluppo: quale tra le seguenti NON è una delle rigide regole dell’incontro?
+Che cosa significa l’acronimo inglese FURPS?
+Quale dei seguenti NON è un attributo di qualità del software indicato dall’acronimo FURPS?
+Quale dei seguenti NON è un attributo di qualità del software indicato dall’acronimo FURPS?
+Quale dei seguenti NON è un attributo di qualità del software indicato dall’acronimo FURPS?
+Quale dei seguenti NON è un attributo di qualità del software indicato dall’acronimo FURPS?
+Quale dei seguenti è un attributo di qualità del software indicato dall’acronimo FURPS?
+Quale dei seguenti è un attributo di qualità del software indicato dall’acronimo FURPS?
+Quale dei seguenti è un attributo di qualità del software indicato dall’acronimo FURPS?
+Quale dei seguenti è un attributo di qualità del software indicato dall’acronimo FURPS?
+L’acronimo FURPS indica un modello per classificare gli attributi di qualità del software; quale tra i seguenti attributi NON appartiene alla categoria “supportability”?
+L’acronimo FURPS indica un modello per classificare gli attributi di qualità del software; quale tra i seguenti attributi NON appartiene alla categoria “supportability”?
+L’acronimo FURPS indica un modello per classificare gli attributi di qualità del software; quale tra i seguenti attributi NON appartiene alla categoria “supportability”?
+L’acronimo FURPS indica un modello per classificare gli attributi di qualità del software; quale tra i seguenti attributi NON appartiene alla categoria “supportability”?
+L’acronimo FURPS indica un modello per classificare gli attributi di qualità del software; quale tra i seguenti attributi NON appartiene alla categoria “Reliability”?
+L’acronimo FURPS indica un modello per classificare gli attributi di qualità del software; quale tra i seguenti attributi NON appartiene alla categoria “Reliability”?
+L’acronimo FURPS indica un modello per classificare gli attributi di qualità del software; quale tra i seguenti attributi NON appartiene alla categoria “Reliability”?
+L’acronimo FURPS indica un modello per classificare gli attributi di qualità del software; quale tra i seguenti attributi NON appartiene alla categoria “Usability”?
+Quale dei seguenti NON è uno dei principi base di Hooker sull’ingegneria del software?
+Quale dei seguenti NON è uno dei principi base di Hooker sull’ingegneria del software?
+Quale dei seguenti NON è uno dei principi base di Hooker sull’ingegneria del software?
+Quale dei seguenti aspetti NON necessita della collaborazione tra gli sviluppatori software ed i clienti?
+Tutti i membri del gruppo di sviluppo software devono essere coinvolti nell’attività di pianificazione perché così …
+Quale delle seguenti sono le tre rappresentazioni utilizzate dai modelli di analisi per descrivere il software?
+Quale dei seguenti NON è uno dei principi alla base di una buona codifica del software?
+Quale tra le seguenti NON è una delle attività quadro previste dall’ingegneria del software (Software Engineering Process Framework Activities)?
+Quale tra le seguenti NON è una delle attività quadro previste dall’ingegneria del software (Software Engineering Process Framework Activities)?
+Quale tra le seguenti NON è una delle attività quadro previste dall’ingegneria del software (Software Engineering Process Framework Activities)?
+Quale tra le seguenti è una delle attività quadro previste dall’ingegneria del software (Software Engineering Process Framework Activities)?
+Quale tra le seguenti è una delle attività quadro previste dall’ingegneria del software (Software Engineering Process Framework Activities)?
+Quale tra le seguenti è una delle attività quadro previste dall’ingegneria del software (Software Engineering Process Framework Activities)?
+Quale tra le seguenti è una delle attività quadro previste dall’ingegneria del software (Software Engineering Process Framework Activities)?
+Quale tra le seguenti NON è una delle attività “ombrello” previste dall’ingegneria del software (Software Engineering Process Umbrella Activities)?
+Quale tra le seguenti NON è una delle attività “ombrello” previste dall’ingegneria del software (Software Engineering Process Umbrella Activities)?
+Quale tra le seguenti NON è una delle attività “ombrello” previste dall’ingegneria del software (Software Engineering Process Umbrella Activities)?
+Quale tra le seguenti NON è una delle attività “ombrello” previste dall’ingegneria del software (Software Engineering Process Umbrella Activities)?
+Quale tra le seguenti è una delle attività “ombrello” previste dall’ingegneria del software (Software Engineering Process Umbrella Activities)?
+Quale tra le seguenti è una delle attività “ombrello” previste dall’ingegneria del software (Software Engineering Process Umbrella Activities)?
+Quale tra le seguenti è una delle attività “ombrello” previste dall’ingegneria del software (Software Engineering Process Umbrella Activities)?
+Quale tra le seguenti è una delle attività “ombrello” previste dall’ingegneria del software (Software Engineering Process Umbrella Activities)?
+Quale tra le seguenti è una delle attività “ombrello” previste dall’ingegneria del software (Software Engineering Process Umbrella Activities)?
+Quale delle seguenti NON è una delle ragioni per cui è importante raccogliere i commenti (feedback) degli utenti sui prodotti software consegnati?
+Secondo le prescrizioni del controllo di qualità di un prodotto software, ad una data fase del processo di sviluppo, cosa viene verificato durante l’audit? 
+Nell’ingegneria del software, a cosa ci si riferisce parlando dei W5HH principi di  Boehm?
+Quale tra le seguenti NON è una delle domande definite dai W5HH principi di Boehm?
+Quale tra le seguenti NON è una delle domande definite dai W5HH principi di Boehm?
+Quale tra le seguenti NON è una delle domande definite dai W5HH principi di Boehm?
+Quale tra le seguenti NON è una delle domande definite dai W5HH principi di Boehm?
+Quale tra le seguenti è una delle domande definite dai W5HH principi di Boehm?
+Quale tra le seguenti è una delle domande definite dai W5HH principi di Boehm?
+Quale tra le seguenti è una delle domande definite dai W5HH principi di Boehm?
+Nell’ambito del controllo di qualità del software, come vengono definiti gli "audit" in cui si cerca di verificare l'aderenza alle specifiche?
+Nello sviluppo del software, quale dei seguenti è un vantaggio del modello a prototipazione rispetto al modello a cascata?
+Quale delle seguenti affermazioni relative al modello di sviluppo del software chiamato “throw-away prototyping” NON è corretta?
+Nel modello di sviluppo del software a prototipazione incrementale (evolutionary prototyping) quando viene effettuata la ridefinizione dei requisiti nel modello?
+Quale delle seguenti affermazioni relative al modello di sviluppo del software chiamato “evolutionary prototyping” è corretta?
+Quale delle seguenti affermazioni relative al modello di sviluppo del software chiamato “throw-away prototyping” è corretta?
+Nel controllo di qualità del software, quando viene eseguito il processo chiamato "validazione"? 
+In informatica, qual è il significato più comune del termine "deployment"?
+Quale, tra i seguenti, NON è uno dei principi da seguire nella messa in servizio (deployment) di un prodotto software?
+Quale tra le seguenti è un’attività legata alla messa in servizio di un prodotto software?
+Quale tra le seguenti è un’attività legata alla messa in servizio di un prodotto software?
+L’uso delle tabelle di tracciabilità aiuta a …
+Quale delle tabelle di tracciabilità mostrano come i requisiti sono in relazione con le caratteristiche osservabili?
+Quale delle tabelle di tracciabilità identificano l’origine di ciascun requisito?
+Quale delle tabelle di tracciabilità mostrano le relazioni tra i requisiti?
+Quale delle tabelle di tracciabilità raggruppano i requisiti con riferimento ai sottosistemi?
+Quale delle tabelle di tracciabilità mostrano le relazioni tra i requisiti e le interfacce interne ed esterne?
+Quale delle seguenti tecniche è più adatta ad essere utilizzata nella gestione dei requisiti ( requirements management)?
+Quale dei seguenti, in UML, NON è diagramma utilizzato per creare un modello per l’analisi del sistema?
+In UML, nel diagramma degli stati (state diagram), cosa viene rappresentato con il simbolo proposto in figura?
+In UML, nel diagramma degli stati (state diagram), cosa viene rappresentato con il simbolo proposto in figura?
+In UML, nel diagramma degli stati (state diagram), cosa viene rappresentato con il simbolo proposto in figura?
+In UML, nel diagramma degli stati (state diagram), cosa viene rappresentato con il simbolo proposto in figura?
+In UML, nel diagramma degli stati (state diagram), cosa viene rappresentato con il simbolo proposto in figura?
+In UML, nel diagramma degli stati (state diagram), cosa viene rappresentato con il simbolo proposto in figura?
+In UML, nel diagramma delle attività (activity diagram), cosa viene rappresentato con il simbolo proposto in figura?
+In UML, nel diagramma delle attività (activity diagram), cosa viene rappresentato con il simbolo proposto in figura? 
+In UML, nel diagramma delle attività (activity diagram), cosa viene rappresentato con il simbolo proposto in figura? 
+In UML, nel diagramma delle attività (activity diagram), cosa viene rappresentato con il simbolo proposto in figura? 
+In UML, nel diagramma delle attività (activity diagram), cosa viene rappresentato con il simbolo proposto in figura? 
+In UML, quale dei seguenti è un diagramma fisico (Physical Diagram)?
+In UML, quale dei seguenti è un diagramma fisico (Physical Diagram)?
+In UML, quale dei seguenti è un diagramma delle interazioni (Interaction Diagrams)?
+In UML, quale dei seguenti è un diagramma delle interazioni (Interaction Diagrams)?
+Quale è la notazione UML che non è utilizzata per modellare gli elementi hardware e software di un sistema?
+Con riferimento alla metodologia di project management PRINCE2, quale delle seguenti è l’autorità principale nella Direzione di un Progetto?
+Con riferimento alla metodologia di project management PRINCE2, quale delle seguenti attività è parte della tematica Planning?
+Con riferimento alla metodologia di project management PRINCE2, quale dei seguenti documenti è un input per la fase denominata “Prepare the Communication Management Strategy” ?
+Con riferimento alla metodologia di project management PRINCE2, in quale dei seguenti processi viene creato il Quality Register?
+Con riferimento alla metodologia di project management PRINCE2, in quale processo viene definito il Gruppo di gestione del Progetto (Project Management Team)?
+Con riferimento alla metodologia di project management PRINCE2, in quale processo viene creato il documento Quality Log?
+Con riferimento alla metodologia di project management PRINCE2, un progetto si differenzia da un’attività che può essere considerata come “normale amministrazione” per 5 caratteristiche peculiari ……
+Con riferimento alla metodologia di project management PRINCE2, cosa è necessario per l’avvio di un Progetto?
+Quali sono secondo il Project Management Institute (PMI) le cinque aree di processo che costituiscono il flusso dell’intera gestione del progetto:
+Secondo il Project Management Institute (PMI), nella fase di definizione, deve essere effettuata l’analisi dei triple constraints del progetto, cioè …
+Secondo il Project Management Institute (PMI) in quale delle cinque aree di processo che costituiscono il flusso dell’intera gestione del progetto viene creato il WBS ( Work Breakdown Structure)?
+Secondo le migliori pratiche di Project Management in quale delle cinque aree di processo che costituiscono il flusso dell’intera gestione del progetto viene eseguita l’Analisi Costi/Benefici?
+Secondo il Project Management Institute (PMI), a che cosa si riferisce il termine Budget at Completion (BAC)?
+Secondo il Project Management Institute (PMI), che cosa è il Change Control Board (CCB)?
+Secondo il Project Management Institute (PMI), che cosa si intende con il termine Earned value (EV)?
+Secondo il Project Management Institute (PMI), che cosa si intende con il termine Effort?
+Secondo il Project Management Institute (PMI), che cosa è il Cost Performance Index (CPI)?
+Come viene spesso usato il Cost Performance Index (CPI) per prevedere l’ampiezza del superamento del costo di un progetto?
+Secondo il Project Management Institute (PMI), che cosa è il Critical Path (Cammino critico) di un progetto?
+Secondo il Project Management Institute (PMI), che cosa è l’Elapsed Time?
+Secondo il Project Management Institute (PMI), che cosa è l’Estimate to Complete (ETC)?
+Secondo il Project Management Institute (PMI), a che cosa ci si riferisce con il termine Float?
+Nel project management, in cosa consiste il metodo Delphi (Delphi Method)?
+Nella gestione di un progetto, quale metodo prevede la valutazione di un team di esperti?
+Quale attività deve svolgere un project manager per assicurarsi che tutte le necessarie attività per la realizzazione del progetto siano considerate nella pianificazione?
+Nella terminologia del project management, come viene definita la relazione tra i task che impone che l’inizio di un task dipende dall’inizio di un suo predecessore?
+Nella terminologia del project management, come viene definita la relazione tra i task che impone che la conclusione di un task dipende dall’inizio di un suo predecessore?
+Nella terminologia del project management, come viene definita la relazione tra i task che impone che la conclusione di un task dipende dalla conclusione di un suo predecessore?
+Nella terminologia del project management come viene definita la relazione tra i task che impone che l’inizio di un task dipende dalla fine di un suo predecessore?
+Nella gestione di un progetto, per rappresentare il piano temporale delle attività è necessario stabilire le relazioni tecniche tra le attività stesse: come viene normalmente indicata la relazione per cui l’attività successiva può iniziare solo se è finita l’attività precedente?
+Che cosa deve fare un project manager per assicurarsi che i parametri che definiscono la fine del progetto siano chiaramente identificati?
+Quale dei seguenti elementi fornisce le fondamenta per lo sviluppo del gruppo (team)?
+Quale dei seguenti elementi NON è un input per l’esecuzione del piano di progetto (project plan)?
+Quale delle seguenti organizzazioni aziendali renderà più difficile, per il Project Manager, lo sviluppo del gruppo (team development)?
+Quale tra i seguenti è l’ultimo passo del processo di chiusura di un progetto?
+Secondo le norme del Project Management, quando il progetto è completato, tutta la documentazione ad esso relativa dovrà.…
+Quale dei seguenti formati viene comunemente utilizzato per preparare i resoconti sull’andamento del progetto con riferimento al raggiungimento degli obbiettivi?
+Come è comunemente chiamato il diagramma che illustra il flusso delle attività di un progetto, indicandone anche le dipendenze?
+Cosa significa l'acronimo inglese PERT?
+Che cosa è il PERT (project evaluation and review technique)?
+Che cosa è il PERT chart?
+Cosa significa l'acronimo inglese GANTT?
+Quello rappresentato in figura è un esempio di ….
+Quello rappresentato in figura è un esempio di ….
+Quale è la corretta sequenza delle fasi del ciclo di vita di un sistema informativo?
+Un progetto, a 5 mesi dalla data di consegna, è in ritardo di 8 settimane sulla pianificazione. Poiché non sono ammessi né ritardi sulla consegna, né compromessi sugli standard di qualità, quali azioni intraprendereste se foste il responsabile del progetto?
+Gli elementi di fattibilità di un progetto includono, tra gli altri, ….
+Quale delle seguenti azioni ha maggiori probabilità di influenzare positivamente un incontro di progetto?
+Quale delle seguenti attività viene effettuata nella fase di avviamento e planning di un progetto?
+Quale tra i seguenti standard e linee guida non descrive i componenti di un buon sistema di gestione della sicurezza:
+Per una completa gestione dei rischi, oltre all'esecuzione di un'analisi dei rischi, è anche necessario …
+Quale tra le seguenti è la corretta sequenza per il management strategico?
+Nell'ambito della gestione strategica dei progetti, con quale termine inglese viene descritta la valutazione dell'ambiente interno ed esterno?
+Quale tra i seguenti è un costo "indiretto" in un progetto?
+Quale è la corretta sequenza nel controllo di un progetto?
+Dall’analisi del diagramma di GANTT si capisce quali sono le attività critiche; quale tra le seguenti affermazioni in merito alle attività critiche non è corretta?
+Quale delle seguenti affermazioni relative alla gestione di un progetto NON è corretta?
+Quale tra le seguenti definizioni NON è riferibile ad un "progetto"?
+Spesso nei progetti si fa riferimento al "triplo vincolo": quali sono I tre elementi che lo costituiscono?
+Nei testi si indica spesso che gli obiettivi di un progetto devono essere SMART, cosa significa?
+il progetto si sviluppa attraverso fasi successive, ed è decomponibile in attività elementari la cui corretta sequenza è …
+Nel gergo del Project Management, cosa si intende con WBS?
+Con riferimento ai Metodi di ottimizzazione della schedulazione, che cosa prevede la Schedulazione a tempi fissi?
+Con riferimento al Project Management, quale delle seguenti definizioni del termine inglese "float" è corretta?
+Con riferimento al Project Management, quale delle seguenti definizioni del termine inglese "free float" è corretta?
+Con riferimento al Project Management, quale delle seguenti definizioni del termine inglese Pay-back Period è corretta?
+In un progetto, che cosa si intende con il termine Milestone?
+Che cosa si intende con il termine Time-to-Market?
+Quale dei seguenti non è un obiettivo della gestione del progetto?
+Quale dei seguenti non è considerato un rischio nella gestione del progetto?
+Il processo che ogni manager segue durante la vita di un progetto è noto come
+Pur tenendo presente che ogni organizzazione stabilisce i propri standard, normalmente nel Project Management, un rischio stimato al 66,6% è considerato come un rischio 
+Quali tra i seguenti sono i principali elementi da considerare per calcolare i costi di un progetto di sviluppo software?
+La decisione di richiedere un aumento delle risorse per un progetto è una responsabilità del …
+In quale delle seguenti fasi del progetto viene sviluppato il programma del progetto (project schedule)?
+Quale, tra le seguenti azioni, è più indicata per ridurre al minimo il tempo di completamento di un progetto?
+I project manager di successo dedicano la maggior parte del loro tempo …
+Il livellamento delle risorse (Resource leveling) ha l’obiettivo di …
+Un prerequisito per un'efficace gestione del tempo di realizzazione di un progetto è:
+Per poter controllare al meglio il budget, a quale livello del WBS deve essere effettuata la stima?
+Nel contesto del project Management, a cosa si riferisce l’acronimo ACWP?
+Nel contesto del project Management, a cosa si riferisce l’acronimo ACWP?
+Quale dei seguenti NON è un uso corretto di una metrica di produttività?
+Nella gestione dei progetti, le metriche di tipo “Earned value” sono utilizzate per misurare la differenza tra il valore stimato e quello reale di quale dei seguenti parametri del progetto?
+Nella gestione dei progetti, le metriche di tipo “Earned value” sono utilizzate per misurare la differenza tra il valore stimato e quello reale di quale dei seguenti parametri del progetto?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale dei seguenti acronimi si riferisce al costo pianificato per realizzare le attività di progetto alla data corrente.
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale dei seguenti acronimi si riferisce al costo effettivamente sostenuto alla data corrente?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale dei seguenti acronimi si riferisce al Valore delle attività realizzate alla data corrente (cioè il valore prodotto dal progetto)?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale dei seguenti acronimi si riferisce al Valore previsto per la realizzazione del progetto (valore iniziale previsto)?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale dei seguenti acronimi si riferisce al Valore stimato per la realizzazione delle rimanenti attività necessarie al completamento del progetto?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale dei seguenti acronimi indica se il valore del costo realmente maturato è maggiore, uguale o minore rispetto al costo effettivo?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale dei seguenti acronimi indica se, rispetto alla baseline, si è in linea, in anticipo o in ritardo rispetto alla pianificazione delle attività di progetto?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale dei seguenti acronimi indica se alla data corrente si è speso di più o di meno rispetto a quanto previsto a budget alla data corrente?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale delle seguenti formule consente di calcolare il costo stimato per completare il progetto (Estimated at Completion) ?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale delle seguenti formule consente di calcolare se il valore del costo realmente maturato è maggiore, uguale o minore rispetto al costo effettivo (Cost Variance)?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale delle seguenti formule consente di calcolare se, rispetto alla baseline, si è in linea, in anticipo o in ritardo rispetto alla pianificazione delle attività di progetto (Schedule Variance)?
+Nella gestione dei progetti le metriche hanno un’importanza fondamentale, quale delle seguenti formule consente di calcolare se alla data corrente si è speso di più o di meno rispetto a quanto previsto a budget alla data corrente (Budget Variance)?
+Nella gestione dei progetti, come viene definita la sequenza di attività descritte in figura?
+Che cosa è il Controllo di Configurazione (Configuration management)? 
+La maggior parte degli errori trovati, dagli utenti, in un software sono dovuti a …
+In un grosso progetto software, gestito in modo ottimale, a quale delle seguenti attività viene normalmente dedicato meno tempo?
+Solitamente, quale delle seguenti fasi di un progetto software è la più costosa?
+Quale delle seguenti affermazioni relative al processo di sviluppo del software NON è vera?
+Quale dei seguenti principi non aiuta direttamente a gestire la complessità di uno sviluppo software?
+Quali delle seguenti qualità di un software è una qualità “interna”?
+Quale delle seguenti caratteristiche non è corretto che sia inclusa in un documento di specifica dei requisiti di un prodotto software?
+Quale, tra le seguenti, è la causa per cui le prestazioni di un applicativo software possono deteriorarsi nel tempo? 
+Perché molti programmi software continuano ad essere sviluppati ad hoc?
+Quale, tra i seguenti, non è uno dei livelli del software engineering?
+Quali tra i seguenti sono le 5 generiche “attività quadro” del software engineering?
+Che cosa è il Personal Software Process?
+A quale scopo fu creato il Personal Software Process (PSP)?
+Quale delle seguenti NON è una caratteristica del Personal Software Process? 
+Quale tra questi è un obiettivo del Team Software Process? 
+Quale tra questi è un obiettivo del Team Software Process? 
+Il modello di sviluppo del software lineare, sequenziale (linear sequential model of software development) è anche conosciuto come….
+A quale modello di sviluppo del software si riferisce il seguente schema?
+A quale modello di sviluppo del software si riferisce il seguente schema?
+Il modello di sviluppo del software “a cascata” (waterfall)…
+A quale modello di sviluppo del software si riferisce il seguente schema?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi NON si trova sul ramo sinistro, cioè discendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi NON si trova sul ramo sinistro, cioè discendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi NON si trova sul ramo sinistro, cioè discendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi NON si trova sul ramo sinistro, cioè discendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi NON si trova sul ramo destro, cioè ascendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi NON si trova sul ramo destro, cioè ascendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi NON si trova sul ramo destro, cioè ascendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi NON si trova sul ramo destro, cioè ascendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi si trova sul ramo destro, cioè ascendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi si trova sul ramo destro, cioè ascendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi si trova sul ramo destro, cioè ascendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi si trova sul ramo destro, cioè ascendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi si trova sul ramo sinistro, cioè discendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi si trova sul ramo sinistro, cioè discendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi si trova sul ramo sinistro, cioè discendente della “V”?
+Nel modello di sviluppo del software a “V”, quale delle seguenti fasi si trova sul ramo sinistro, cioè discendente della “V”?
+Un modello incrementale per lo sviluppo del software è… 
+Il modello di sviluppo software prototipale è...
+Quale dei seguenti modelli di ciclo di vita del software enfatizza la relazione tra le fasi di test ed i prodotti generati durante le fasi di sviluppo iniziali?
+Quale delle seguenti motivazioni non suggerisce la scelta del modello di sviluppo software prototipale?
+Il modello di sviluppo software a spirale… 
+Quale delle seguenti NON è il nome di una fase definita dall’Unified Process Model per lo sviluppo del software?
+Quale tra le seguenti non è un’evoluzione o una variazione dell’Unified Process Model per lo sviluppo del software?
+A quale modello di sviluppo del software si riferisce il seguente schema?
+Quali sono le 4 attività quadro (framework activities) identificate dall’Extreme Programming (XP) process model? 
+Quali sono le 3 attività quadro (framework activities) identificate dall’Adaptive Software Development (ASD) process model? 
+Il modello di sviluppo del software noto come “rapid application development model” è … 
+Quale delle seguenti affermazioni relative ai modelli di sviluppo del software evolutivi (Evolutionary software process models) NON è corretta?
+Il modello di sviluppo software “concurrent”... 
+Quali sono i due processi su cui si basa il modello di sviluppo software “component-based”?
+Quale tra le seguenti NON è una delle quattro attività in cui può essere suddiviso  lo sviluppo di sistemi come assemblaggio di componenti, nel modello di sviluppo software “component-based”?
+Quale tra le seguenti NON è una delle quattro attività in cui può essere suddiviso  lo sviluppo di sistemi come assemblaggio di componenti, nel modello di sviluppo software “component-based”?
+Quale tra le seguenti NON è una delle quattro attività in cui può essere suddiviso  lo sviluppo di sistemi come assemblaggio di componenti, nel modello di sviluppo software “component-based”?
+Quale, tra le seguenti è un’area a cui i metodi formali (formal methods) per lo sviluppo del software NON applicano metodologie matematiche?
+Quale tra i seguenti NON è un metodo formale (formal method) per lo sviluppo del software?
+Nel mondo dell’ingegneria del software, cosa significa l’acronimo inglese RAD?
+Quale delle seguenti affermazioni relative al modello di sviluppo del software RAD (Rapid application development) NON è corretta?
+Quale delle seguenti affermazioni relative al modello di sviluppo del software RAD (Rapid application development) è corretta?
+Quale delle seguenti affermazioni relative al modello di sviluppo del Software RAD (Rapid application development) è corretta?
+Quale delle seguenti NON è un’evoluzione/variante del modello di sviluppo software noto come Unified Software Development Process (o Unified Process)?
+Quale delle seguenti NON è un’evoluzione/variante del modello di sviluppo software noto come Unified Software Development Process (o Unified Process)?
+Quale delle seguenti NON è un’evoluzione/variante del modello di sviluppo software noto come Unified Software Development Process (o Unified Process)?
+Quale delle seguenti è un’evoluzione/variante del modello di sviluppo software noto come Unified Software Development Process (o Unified Process)?
+Quale delle seguenti è un’evoluzione/variante del modello di sviluppo software noto come Unified Software Development Process (o Unified Process)?
+Il modello di sviluppo software noto come Unified Software Development Process (o Unified Process) è …
+Quali sono le fasi del modello di sviluppo software Unified Process?
+Quale dei seguenti modelli è più adatto allo sviluppo di un software i cui requisiti siano ben definiti?
+Dovendo sviluppare un sistema software in una situazione in cui il cliente è molto flessibile rispetto ai termini contrattuali, ma in cui i requisiti di sicurezza ed affidabilità sono molto elevati (incluse possibili responsabilità penali) e in cui vi sono molti aspetti legati alla fattibilità che potranno essere chiariti solo in una fase avanzata dello sviluppo, quale modello di ciclo di vita (lifecycle model) scegliereste?
+Dovendo sviluppare per una piccola società (che sta cercando fondi sul mercato) un prodotto software per il mercato di massa (mass market) per un’applicazione assolutamente innovativa per cui si hanno ancora molti dubbi sull’interfaccia utente, quale modello di ciclo di vita (lifecycle model) scegliereste?
+Il processo di ingegneria di sistema che è normalmente top-down, inizia con … 
+Quale, tra i seguenti, NON è uno dei fattori limitativi che devono essere tenuti in conto da un progettista nel definire un modello del sistema?
+Quale, tra i seguenti, NON è uno dei fattori limitativi che devono essere tenuti in conto da un progettista nel definire un modello del sistema?
+Quale, tra i seguenti, è uno dei fattori limitativi che devono essere tenuti in conto da un progettista nel definire un modello del sistema?
+Il processo d’ingegneria di sistema è normalmente top-down, dal punto di vista del business; quale, delle seguenti è la corretta sequenza dall’alto al basso (top-down)?
+Il processo d’ingegneria di sistema è normalmente top-down con 4 “viste” ai diversi livelli; quale, delle seguenti coppie è una corretta associazione tra “vista” e livello gerarchico dal punto di vista del business?
+Il processo d’ingegneria di sistema è normalmente top-down con 4 “viste” ai diversi livelli; quale, delle seguenti coppie è una corretta associazione tra “vista” e livello gerarchico dal punto di vista del business?
+Il processo d’ingegneria di sistema è normalmente top-down con 4 “viste” ai diversi livelli; quale, delle seguenti coppie è una corretta associazione tra “vista” e livello gerarchico dal punto di vista del business?
+Il processo d’ingegneria di sistema è normalmente top-down con 4 “viste” ai diversi livelli; quale, delle seguenti coppie è una corretta associazione tra “vista” e livello gerarchico dal punto di vista del business?
+Il processo d’ingegneria di sistema è normalmente top-down; dal punto di vista dell’ingegneria di prodotto, quale delle seguenti è la corretta sequenza dall’alto al basso (top-down)?
+Il processo d’ingegneria di sistema è normalmente top-down con 4 “viste” ai diversi livelli; quale, delle seguenti coppie è una corretta associazione tra “vista” e livello gerarchico dal punto di vista dell’ingegneria di prodotto?
+Il processo d’ingegneria di sistema è normalmente top-down con 4 “viste” ai diversi livelli; quale, delle seguenti coppie è una corretta associazione tra “vista” e livello gerarchico dal punto di vista dell’ingegneria di prodotto?
+Il processo d’ingegneria di sistema è normalmente top-down con 4 “viste” ai diversi livelli; quale, delle seguenti coppie è una corretta associazione tra “vista” e livello gerarchico dal punto di vista dell’ingegneria di prodotto?
+Il processo d’ingegneria di sistema è normalmente top-down con 4 “viste” ai diversi livelli; quale, delle seguenti coppie è una corretta associazione tra “vista” e livello gerarchico dal punto di vista dell’ingegneria di prodotto?
+Quale dei seguenti NON è un beneficio legato all’aumento della qualità del software?
+In quale delle seguenti categorie di costo deve essere incluso il costo dovuto all’ispezione del codice per identificare i difetti del software?
+Il WBS (work breakdown structure) è un metodo per….
+Quale delle seguenti è una tecnica formale per verificare matematicamente che un software soddisfi i requisiti?
+Quale dei seguenti ruoli gestisce le attività relative a cambi nel prodotto software ed ha la responsabilità di garantire che nessuna modifica NON autorizzata sia effettuata al prodotto software?
+Quale dei seguenti NON è un esempio di documentazione per la qualità (quality record)?
+Secondo le norme alla base dell’ingegneria del software, in quale delle seguenti librerie devono essere archiviate le componenti software utilizzate per costruire un eseguibile da utilizzare nel test di sistema (system testing)?
+Secondo le norme alla base dell’ingegneria del software, in quale delle seguenti librerie devono essere archiviate le componenti software sulle quali sono in corso le attività di sviluppo?
+Secondo le norme alla base dell’ingegneria del software, in quale delle seguenti librerie devono essere archiviate le versioni software rilasciate per l’uso?
+Secondo le norme alla base dell’ingegneria del software, in quale delle seguenti librerie devono essere archiviati i duplicati delle versioni del software e tutta la documentazione ad esse associata?
+Le componenti architetturali dell’ingegneria del prodotto software sono…
+Quale dei seguenti acronimi si riferisce al livello più elevato del modello gerarchico di un sistema?
+Quale dei seguenti elementi NON è previsto nello schema di riferimento del modello di sistema (system model template)? 
+Quale delle seguenti NON è una delle classificazioni dei requisiti utilizzata nel QFD (Quality Function Deployment)?
+Le specifiche di sistema descrivono….
+Quale delle seguenti domande non è previsto che venga posta nella fase di avvio di un progetto (project inception)?
+Quale tra i seguenti obiettivi NON fa parte di ciò che ci si propone di ottenere durante la fase iniziale di un progetto (project inception)?
+Quale tra i seguenti NON è uno dei problemi che rende difficile la fase di identificazione dei requisiti?
+Il miglior modo per condurre una revisione di validazione dei requisiti (requirements validation review) è…
+Con riferimento alle strutture architetturali canoniche (Canonical Architectural Structures) dell’ingegneria del software, in quale struttura i “componenti” sono i moduli hardware su cui “gira” il software ed i “connettori” sono le interfacce hardware?
+Con riferimento alle strutture architetturali canoniche (Canonical Architectural Structures) dell’ingegneria del software, in quale struttura i “componenti” sono i prodotti del lavoro e le relative fonti d’informazione ed i “connettori” sono le relazioni tra i prodotti?
+Con riferimento alle strutture architetturali canoniche (Canonical Architectural Structures) dell’ingegneria del software, in quale struttura i “componenti” sono le funzioni ed i “connettori” sono le interfacce che consentono l’accesso ai dati?
+Con riferimento agli “stili” architetturali (Architectural Styles) dell’ingegneria del software, quale stile pone al centro della struttura i dati (data store), a cui accedono frequentemente altri componenti che modificano tali dati?
+Con riferimento agli “stili” architetturali (Architectural Styles) dell’ingegneria del software, quale stile prevede che i dati in ingresso, attraverso una serie di componenti computazionali o elaborativi, vengano trasformati nei dati di output?
+Con riferimento agli “stili” architetturali (Architectural Styles) dell’ingegneria del software, quale stile prevede che la struttura del programma scomponga le funzioni in un controllo gerarchico dove il programma principale “chiama” i vari sottoprogrammi?
+Con riferimento agli “stili” architetturali (Architectural Styles) dell’ingegneria del software, quale stile prevede che i componenti del sistema incapsulino dati e operazioni e le comunicazioni tra i componenti avvengano tramite scambio di messaggi?
+Con riferimento agli “stili” architetturali (Architectural Styles) dell’ingegneria del software, quale stile definisce svariati livelli, ciascuno dei quali esegue operazioni che diventano progressivamente più vicine al set d’istruzioni del processore?
+Quando si progetta un nuovo software, le prestazioni che deve avere vengono decise.…
+Quale delle seguenti affermazioni, relative alla tecnica di test “white box”, è corretta?
+Spesso i programmatori di computer parlano di “baco”, o “bug”, cosa significa?
+Come viene definita l’attività che viene compiuta su un sistema/software al fine di eliminare gli errori?
+Cosa significa e cosa indica il termine BUG?
+La procedura con cui si ricercano e si correggono eventuali errori di un programma è detta.…
+La migliore motivazione per utilizzare un team di test del software indipendente è.….
+Quale è la corretta sequenza in cui vengono organizzate le attività nel testing del software tradizionale?
+Quale dei seguenti aspetti strategici deve essere affrontato in un processo di testing del software corretto?
+Quale dei seguenti aspetti deve essere verificato a livello di test del modulo (unit testing)?
+Qual’è il maggiore vantaggio del testing d’integrazione bottom-up?
+Quale delle seguenti NON è una caratteristica che aiuta il testing del software?
+Com’è chiamata la tecnica di testing che sviluppa situazioni di test (test cases) che hanno lo scopo di verficare/dimostrare che ciascuna funzione del programma è eseguita correttamente?
+Com’è chiamata la tecnica di testing che sviluppa situazioni di test (test cases) che hanno lo scopo di “esercitare” la logica interna di ciascun modulo software?
+Quali sono gli errori che sfuggono al black-box testing, ma possono essere individuati con il testing white-box?
+Quale delle seguenti tipologie di errori non viene identificato dal testing black-box?
+Con quale altro nome è anche nota la metrica chiamata Cyclomatic complexity?
+Quale tipo d’informazione fornisce la metrica chiamata Cyclomatic complexity?
+Qual è il valore della metrica chiamata Cyclomatic complexity di un pezzo di codice sorgente che non contiene nessun blocco di decisione?
+Qual è il valore della metrica chiamata Cyclomatic complexity di un pezzo di codice sorgente che contiene, come unico blocco di decisione un’istruzione di tipo <if> ?
+Quale, dei seguenti, è un fattore peculiare da valutare nel testing delle applicazioni real-time?
+Il testing del flusso dei dati (Data flow testing) è una tecnica di testing delle strutture di controllo dove il criterio utilizzato per progettare le strutture di test (test cases) è…
+ Il testing Loop (Loop testing) è una tecnica di testing delle strutture di controllo dove il criterio utilizzato per progettare le strutture di test (test cases) è …
+Quale delle tecniche elencate non è una tecnica riconosciuta per il testing del Software?
+A che cosa serve il testing di regressione (regression testing)?
+Con riferimento al testing del software, cosa afferma il principio di Pareto?
+In ambito informatico, che cosa è l’UML?
+In ambito informatico, che cosa è l’acronimo UML?
+In che anno fu definito il nucleo del linguaggio dell’UML?
+Quale gruppo sponsorizzo lo sviluppo e tutt’ora gestisce lo standard UML?
