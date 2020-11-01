@@ -25,23 +25,23 @@ public class CheckerAppTest {
 
     @Test
     public void it_finds_no_duplicate_lines() {
-        assertThat(checker.check(QUIZ_TEXT_NO_DUP), hasEntry("abc", List.of(1)));
-        assertThat(checker.check(QUIZ_TEXT_NO_DUP), hasEntry("cdf", List.of(2)));
-        assertThat(checker.check(QUIZ_TEXT_NO_DUP), hasEntry("joy", List.of(3)));
+        assertThat(new QuizChecker().check(QUIZ_TEXT_NO_DUP), hasEntry("abc", List.of(1)));
+        assertThat(new QuizChecker().check(QUIZ_TEXT_NO_DUP), hasEntry("cdf", List.of(2)));
+        assertThat(new QuizChecker().check(QUIZ_TEXT_NO_DUP), hasEntry("joy", List.of(3)));
     }
 
     @Test
     public void it_finds_a_duplicate_lines() {
-        assertThat(checker.check(QUIZ_TEXT_ONE_DUP), hasEntry("abc", List.of(1)));
-        assertThat(checker.check(QUIZ_TEXT_ONE_DUP), hasEntry("cdf", List.of(2, 4)));
-        assertThat(checker.check(QUIZ_TEXT_ONE_DUP), hasEntry("joy", List.of(3)));
+        assertThat(new QuizChecker().check(QUIZ_TEXT_ONE_DUP), hasEntry("abc", List.of(1)));
+        assertThat(new QuizChecker().check(QUIZ_TEXT_ONE_DUP), hasEntry("cdf", List.of(2, 4)));
+        assertThat(new QuizChecker().check(QUIZ_TEXT_ONE_DUP), hasEntry("joy", List.of(3)));
     }
 
     @Test
     public void it_finds_a_duplicate_lines_on_a_file_with_sentences() {
-        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("I am", List.of(1,3)));
-        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("you are", List.of(2)));
-        assertThat(checker.check(QUIZ_SENTENCES_ONE_DUP), hasEntry("he is", List.of(4)));
+        assertThat(new QuizChecker().check(QUIZ_SENTENCES_ONE_DUP), hasEntry("I am", List.of(1,3)));
+        assertThat(new QuizChecker().check(QUIZ_SENTENCES_ONE_DUP), hasEntry("you are", List.of(2)));
+        assertThat(new QuizChecker().check(QUIZ_SENTENCES_ONE_DUP), hasEntry("he is", List.of(4)));
     }
 
     @Test
