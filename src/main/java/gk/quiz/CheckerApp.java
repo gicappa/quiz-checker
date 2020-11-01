@@ -1,8 +1,6 @@
 package gk.quiz;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 
 import static java.util.stream.Collectors.joining;
@@ -12,8 +10,8 @@ import static java.util.stream.Collectors.joining;
  */
 public class CheckerApp {
     public static void main(String[] args) throws IOException {
-        String inputFile = Files.readString(Paths.get(args[0]));
         CheckerApp checkerApp = new CheckerApp();
+        String inputFile = new FileQuiz().readFile(args[0]);
         System.out.println(checkerApp.result(checkerApp.check(inputFile)));
     }
 
