@@ -19,7 +19,7 @@ public class CheckerApp {
 
     public Map<String, List<Integer>> check(String quizText) {
         HashMap<String, List<Integer>> lines = new HashMap<>();
-        StringTokenizer tokenizer = new StringTokenizer(quizText);
+        StringTokenizer tokenizer = new StringTokenizer(quizText, "\n");
         for (Integer i = 1; tokenizer.hasMoreTokens(); i++) {
             String token = tokenizer.nextToken();
             List<Integer> occurrences = lines.get(token);
