@@ -5,7 +5,7 @@ import java.util.Map;
 import static java.util.stream.Collectors.joining;
 
 class QuizResult {
-    String format(Map<String, Occurrences> resultingHash) {
+    String format(Map<String, QuizItem> resultingHash) {
         String result = resultingHash.entrySet().stream()
                 .filter(e -> e.getValue().hasDuplicates())
                 .map(m -> m.getKey() + m.getValue())
@@ -15,7 +15,7 @@ class QuizResult {
         return result.isBlank() ? "no matches found" : result;
     }
 
-    void display(Map<String, Occurrences> resultingHash) {
+    void display(Map<String, QuizItem> resultingHash) {
         System.out.println(format(resultingHash));
     }
 

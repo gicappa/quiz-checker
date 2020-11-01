@@ -3,9 +3,7 @@ package gk.quiz;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.List;
-
-import static gk.quiz.Occurrences.occ;
+import static gk.quiz.QuizItem.occ;
 import static org.hamcrest.collection.IsMapContaining.hasEntry;
 import static org.junit.Assert.assertThat;
 

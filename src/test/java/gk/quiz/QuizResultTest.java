@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import java.util.Map;
 
-import static gk.quiz.Occurrences.occ;
+import static gk.quiz.QuizItem.occ;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -20,7 +20,7 @@ public class QuizResultTest {
 
     @Test
     public void it_summarize_a_no_result() {
-        Map<String, Occurrences> noMatch =
+        Map<String, QuizItem> noMatch =
                 Map.of("no match one", occ(3), "no match two", occ(2));
 
         assertThat(result.format(noMatch), is("no matches found"));
@@ -28,7 +28,7 @@ public class QuizResultTest {
 
     @Test
     public void it_summarize_one_result() {
-        Map<String, Occurrences> oneMatch =
+        Map<String, QuizItem> oneMatch =
                 Map.of("no match one", occ(3),
                         "this match", occ(1, 4),
                         "no match two", occ(2));
@@ -38,7 +38,7 @@ public class QuizResultTest {
 
     @Test
     public void it_summarize_two_result() {
-        Map<String, Occurrences> oneMatch =
+        Map<String, QuizItem> oneMatch =
                 Map.of("no match one", occ(3),
                         "this match", occ(1, 4),
                         "no match two", occ(2),

@@ -4,20 +4,27 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
 
-public class Occurrences {
+public class QuizItem {
     private final ArrayList<Integer> lineNumbers;
+    private final String quizText;
 
-    public static Occurrences occ(Integer... lineNumbers) {
-        Occurrences occurrences = new Occurrences();
-        Arrays.stream(lineNumbers).forEach(occurrences::add);
+    public QuizItem(String quizText) {
+        lineNumbers = new ArrayList<>();
+        this.quizText = quizText;
+    }
+
+    public static QuizItem occ(Integer... lineNumbers) {
+        QuizItem occurrences = new QuizItem();
+        Arrays.stream(lineNumbers).forEach(occurrences::addLineNumber);
         return occurrences;
     }
 
-    public Occurrences() {
+    public QuizItem() {
+        quizText = "";
         lineNumbers = new ArrayList<>();
     }
 
-    public void add(Integer lineNumber) {
+    public void addLineNumber(Integer lineNumber) {
         lineNumbers.add(lineNumber);
     }
 
@@ -34,7 +41,7 @@ public class Occurrences {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Occurrences that = (Occurrences) o;
+        QuizItem that = (QuizItem) o;
         return Objects.equals(lineNumbers, that.lineNumbers);
     }
 

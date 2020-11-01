@@ -11,31 +11,31 @@ class QuizChecker {
      * @param quizText the whole input file
      * @return a map containing the lines and the occurrences
      */
-    Map<String, Occurrences> check(String quizText) {
-        Map<String, Occurrences> lines = new HashMap<>();
+    Map<String, QuizItem> check(String quizText) {
+        Map<String, QuizItem> lines = new HashMap<>();
 
         StringTokenizer tokenizer = new StringTokenizer(quizText, "\n");
 
         for (Integer i = 1; tokenizer.hasMoreTokens(); i++) {
             String token = tokenizer.nextToken();
 
-            checkOccurrence(token, i, lines);
+            checkQuizItem(token, i, lines);
         }
 
         return lines;
     }
 
-    private void checkOccurrence(String token, Integer lineNumber, Map<String, Occurrences> lines) {
-        String key = token.toLowerCase();
-        Occurrences occurrences = lines.get(key);
+    private void checkQuizItem(String quizText, Integer lineNumber, Map<String, QuizItem> lines) {
+        String key = quizText.toLowerCase();
+        QuizItem quizItem = lines.get(key);
 
-        if (occurrences == null) {
-            occurrences = new Occurrences();
+        if (quizItem == null) {
+            quizItem = new QuizItem(quizText);
         }
 
-        occurrences.add(lineNumber);
+        quizItem.addLineNumber(lineNumber);
 
-        lines.put(key, occurrences);
+        lines.put(key, quizItem);
     }
 
 }
