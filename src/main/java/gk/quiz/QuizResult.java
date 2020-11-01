@@ -6,7 +6,7 @@ import java.util.Map;
 import static java.util.stream.Collectors.joining;
 
 class QuizResult {
-    String display(Map<String, List<Integer>> resultingHash) {
+    String format(Map<String, List<Integer>> resultingHash) {
         String result = resultingHash.entrySet().stream()
                 .filter(e -> e.getValue().size() > 1)
                 .map(m -> m.getKey() + m.getValue())
@@ -14,7 +14,10 @@ class QuizResult {
                 .collect(joining("\n"));
 
         return result.isBlank() ? "no matches found" : result;
+    }
 
+    void display(Map<String, List<Integer>> resultingHash) {
+        System.out.println(format(resultingHash));
     }
 
 }
