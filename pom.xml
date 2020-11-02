@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <graalvm.version>20.1.0</graalvm.version>
+    <graalvm.version>20.2.0</graalvm.version>
   </properties>
 
   <dependencies>
@@ -28,6 +28,7 @@
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-library</artifactId>
       <version>1.3</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.graalvm.sdk</groupId>
@@ -35,6 +36,13 @@
       <version>${graalvm.version}</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>com.github.stefanbirkner</groupId>
+      <artifactId>system-rules</artifactId>
+      <version>1.19.0</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
   <build>

@@ -37,7 +37,7 @@ public class CheckerApp implements Runnable {
     public void run() {
         try {
 
-            quizResult.display(quizChecker.check(quizFile.loadData(fileName)));
+            quizResult.display(quizChecker.check(quizFile.loadData(quizArgs.getFileName())));
 
         } catch (Exception e) {
             e.printStackTrace();

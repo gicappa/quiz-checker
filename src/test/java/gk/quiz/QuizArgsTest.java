@@ -1,18 +1,17 @@
 package gk.quiz;
 
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.contrib.java.lang.system.ExpectedSystemExit;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 
 public class QuizArgsTest {
-    @Test(expected = CheckerException.class)
-    public void it_throws_an_exception_if_no_arg_is_passed() {
-        QuizArgs quizArgs = new QuizArgs();
 
-        quizArgs.getFileName();
-    }
+    @Rule
+    public final ExpectedSystemExit exit = ExpectedSystemExit.none();
 
     @Test
     public void it_doesnt_throw_an_exception_if_one_arg_is_passed() {
@@ -31,8 +30,17 @@ public class QuizArgsTest {
             assertThat(quizArgs.getFileName(), is("one"));
     }
 
-    @Test(expected = CheckerException.class)
+    @Test
+    public void it_throws_an_exception_if_no_arg_is_passed() {
+        exit.expectSystemExit();
+        QuizArgs quizArgs = new QuizArgs();
+
+        quizArgs.getFileName();
+    }
+
+    @Test
     public void it_throws_an_exception_if_more_than_one_arg_is_passed() {
+        exit.expectSystemExit();
         QuizArgs quizArgs = new QuizArgs("one", "two", "three");
 
         quizArgs.getFileName();
