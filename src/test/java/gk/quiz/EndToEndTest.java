@@ -1,8 +1,6 @@
 package gk.quiz;
 
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.contrib.java.lang.system.ExpectedSystemExit;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -26,7 +24,7 @@ public class EndToEndTest {
         assertThat(captureOutput(() -> {
             CheckerApp app = new CheckerApp();
             app.run();
-        }), containsString("usage"));
+        }), containsString("Usage"));
     }
 
     private String captureOutput(Runnable function) {

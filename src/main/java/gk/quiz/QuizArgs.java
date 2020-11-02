@@ -1,7 +1,5 @@
 package gk.quiz;
 
-import static java.lang.System.exit;
-
 public class QuizArgs {
 
     private final String[] args;
@@ -11,15 +9,15 @@ public class QuizArgs {
     }
 
     public String getFileName() {
-        if (args.length != 1)
-            printUsageAndExit();
+        if (args.length != 1) {
+            throw new IllegalArgumentException(usage());
+        }
 
         return args[0];
     }
 
-    private void printUsageAndExit() {
-        System.out.println("ERROR: checker needs one and only one parameter\n");
-        System.out.println("Usage: checker file");
-        exit(1);
+    public String usage() {
+        return "ERROR: checker needs one and only one parameter\n" +
+                "Usage: checker file";
     }
 }
