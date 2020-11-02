@@ -15,12 +15,12 @@ public class CheckerApp implements Runnable {
     /**
      * @param args in the first argument it holds the filename
      */
-    public static void main(String[] args) {
-        new CheckerApp(args[0]).run();
+    public static void main(String... args) {
+        new CheckerApp(args).run();
     }
 
-    public CheckerApp(String fileName) {
-        this.fileName = fileName;
+    public CheckerApp(String... args) {
+        this.fileName = args[0];
         this.fileQuiz = new QuizFile();
         this.quizResult = new QuizResultDefault();
         this.quizChecker = new QuizChecker();
