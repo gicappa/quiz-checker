@@ -11,7 +11,6 @@ public class CheckerApp implements Runnable {
     private final QuizResult quizResult;
     private final QuizChecker quizChecker;
     private final QuizArgs quizArgs;
-    private final String fileName;
 
     /**
      * @param args in the first argument it holds the filename
@@ -25,7 +24,6 @@ public class CheckerApp implements Runnable {
         this.quizResult = new QuizResultDefault();
         this.quizChecker = new QuizChecker();
         this.quizArgs = new QuizArgs(args);
-        this.fileName = args[0];
     }
 
     /**

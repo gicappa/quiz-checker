@@ -1,5 +1,11 @@
 package gk.quiz;
 
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.io.Writer;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.Map;
 
 import static java.util.stream.Collectors.joining;
@@ -11,7 +17,13 @@ class QuizResultDefault implements QuizResult {
 
     @Override
     public void display(Map<String, QuizItem> resultsMap) {
-        System.out.println(format(resultsMap));
+        var writer = new OutputStreamWriter(System.out, Charset.forName("Cp1252"));
+        try {
+            writer.write(format(resultsMap));
+            writer.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -22,15 +34,9 @@ class QuizResultDefault implements QuizResult {
         String result = resultingHash.values().stream()
                 .filter(QuizItem::hasDuplicates)
                 .map(QuizItem::toString)
-                .map(this::shortenLine)
                 .sorted()
                 .collect(joining("\n"));
 
         return result.isBlank() ? "no matches found" : result;
     }
-
-    private String shortenLine(String s) {
-        return s.length() > 30 ? s.substring(0, 50) + "..." : s;
-    }
-
 }
