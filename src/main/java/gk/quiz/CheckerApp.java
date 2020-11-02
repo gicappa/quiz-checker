@@ -22,7 +22,7 @@ public class CheckerApp implements Runnable {
     public CheckerApp(String fileName) {
         this.fileName = fileName;
         this.fileQuiz = new QuizFile();
-        this.quizResult = new QuizResult();
+        this.quizResult = new QuizResultDefault();
         this.quizChecker = new QuizChecker();
     }
 

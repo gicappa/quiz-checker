@@ -12,13 +12,13 @@ import static java.util.stream.Collectors.toMap;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class QuizResultTest {
+public class QuizResultDefaultTest {
 
-    private QuizResult result;
+    private QuizResultDefault result;
 
     @Before
     public void before() {
-        result = new QuizResult();
+        result = new QuizResultDefault();
     }
 
     @Test

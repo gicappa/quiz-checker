@@ -4,8 +4,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
 
+/**
+ * A quiz line
+ */
 public class QuizItem {
     private final ArrayList<Integer> lineNumbers;
+
     private final String quizText;
 
     public QuizItem(String quizText) {
@@ -28,6 +32,14 @@ public class QuizItem {
     public static String hash(String text) {
         return text.toLowerCase()
                 .replaceAll("[^a-z\\d]", "");
+    }
+
+    public ArrayList<Integer> getLineNumbers() {
+        return lineNumbers;
+    }
+
+    public String getQuizText() {
+        return quizText;
     }
 
     @Override
