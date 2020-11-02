@@ -11,10 +11,22 @@ my third line
 a repeated line
 my fifth line
 ```
-lanuching the checker it will detect all the repeated lines and their line number sorting the input alphabetically
+running the checker it will detect all the repeated lines, and their line number sorting the input alphabetically:
 ```bash
 $ ./checker input.txt
 a repeated line[2, 4]
+```
+
+The checker is also able to find similarities disregarding differences in:
+- case of the sentences
+- spaces
+- special characters and symbols
+
+For instance, the following sentences will be considered as duplicated:
+
+```
+The Quick, Brown, Fox Jumps -  On the       lazy dog.
+Thequickbrown fox ju mps ... on the Lazy Dog;
 ```
 
 # Building from sources
@@ -26,12 +38,17 @@ To build the checker it is needed to
 - install maven 3.2.x
 
 ## How to build
-To build the checker just launch:
+To build the checker into a jar file:
 ```bash 
 $ mvn package
 ```
 
-When the build completes the executable is compiled in the target directory and can be used.
+To build a native executable use the following command:
+```bash
+mvn package -Pnative
+```
+
+When the build terminates, the target directory will contain the executable file named ``checker`.
 
 ## Windows Setup
 Building a native image for Microsoft Windows is not a pleasant experience. 
