@@ -32,3 +32,23 @@ $ mvn package
 ```
 
 When the build completes the executable is compiled in the target directory and can be used.
+
+## Windows Setup
+Building a native image for Microsoft Windows is not a pleasant experience. 
+
+### Prerequisites
+* __chocolatey__ - package manager for Windows
+* __Git Bash__ - we’re not even interested that much in git as we are in bash
+
+### Install Java 11 based GraalVM
+All bash snippets are supposed to be run from Git Bash unless I specifically note any other one:
+```bash
+choco install zip unzip
+choco install visualstudio2017-workload-vctools
+curl -sL https://get.sdkman.io | bash
+mkdir -p "$HOME/.sdkman/etc/"
+echo sdkman_auto_answer=true > "$HOME/.sdkman/etc/config"
+echo sdkman_auto_selfupdate=true >> "$HOME/.sdkman/etc/config"
+"source $HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java 20.2.0.r11-grl
+```
