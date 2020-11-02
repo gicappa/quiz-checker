@@ -7,10 +7,11 @@ package gk.quiz;
  */
 public class CheckerApp implements Runnable {
 
-    private final String fileName;
-    private final QuizFile fileQuiz;
+    private final QuizFile quizFile;
     private final QuizResult quizResult;
     private final QuizChecker quizChecker;
+    private final QuizArgs quizArgs;
+    private final String fileName;
 
     /**
      * @param args in the first argument it holds the filename
@@ -20,10 +21,11 @@ public class CheckerApp implements Runnable {
     }
 
     public CheckerApp(String... args) {
-        this.fileName = args[0];
-        this.fileQuiz = new QuizFile();
+        this.quizFile = new QuizFile();
         this.quizResult = new QuizResultDefault();
         this.quizChecker = new QuizChecker();
+        this.quizArgs = new QuizArgs(args);
+        this.fileName = args[0];
     }
 
     /**
@@ -35,7 +37,7 @@ public class CheckerApp implements Runnable {
     public void run() {
         try {
 
-            quizResult.display(quizChecker.check(fileQuiz.loadData(fileName)));
+            quizResult.display(quizChecker.check(quizFile.loadData(fileName)));
 
         } catch (Exception e) {
             e.printStackTrace();
