@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>gk.quiz</groupId>
@@ -88,6 +88,76 @@
     </pluginManagement>
   </build>
   <profiles>
+    <profile>
+      <id>launch4j</id>
+      <activation>
+        <property>
+          <name>launch4j</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>com.akathist.maven.plugins.launch4j</groupId>
+            <artifactId>launch4j-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>l4j-clui</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>launch4j</goal>
+                </goals>
+                <configuration>
+                  <headerType>console</headerType>
+                  <outfile>target/checker.exe</outfile>
+                  <jar>target/checker-1.0-SNAPSHOT.jar</jar>
+                  <errTitle>checker</errTitle>
+                  <classPath>
+                    <mainClass>gk.quiz.CheckerApp</mainClass>
+                    <addDependencies>true</addDependencies>
+                    <preCp>anything</preCp>
+                  </classPath>
+                  <jre>
+                    <minVersion>1.0</minVersion>
+                    <opts>
+                      <opt>-Djava.endorsed.dirs=./endorsed</opt>
+                    </opts>
+                  </jre>
+                  <versionInfo>
+                    <fileVersion>1.0.0.0</fileVersion>
+                    <txtFileVersion>checker</txtFileVersion>
+                    <fileDescription>quiz checker</fileDescription>
+                    <copyright>all right reserved</copyright>
+                    <productVersion>1.0.0.0</productVersion>
+                    <txtProductVersion>quiz checker</txtProductVersion>
+                    <productName>checker</productName>
+                    <internalName>checker</internalName>
+                    <originalFilename>checker.exe</originalFilename>
+                  </versionInfo>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <!--<plugin>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>assembly</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>single</goal>
+                </goals>
+                <configuration>
+                  <descriptors>
+                    <descriptor>assembly.xml</descriptor>
+                  </descriptors>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>-->
+        </plugins>
+      </build>
+    </profile>
     <profile>
       <id>native</id>
       <activation>

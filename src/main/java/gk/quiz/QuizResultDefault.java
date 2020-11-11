@@ -17,7 +17,7 @@ class QuizResultDefault implements QuizResult {
 
     @Override
     public void display(Map<String, QuizItem> resultsMap) {
-        var writer = new OutputStreamWriter(System.out, Charset.forName("Cp1252"));
+        var writer = new OutputStreamWriter(System.out);
         try {
             writer.write(format(resultsMap));
             writer.flush();
